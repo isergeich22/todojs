@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ff3c00;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+    margin: 20%;
+}
+
+    body h1 {
+        color: #000000b4;
+    }
+
+    .main {
+        width: 45%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Manrope', sans-serif;
+    }
+
+        .main input {
+            border: 3px solid #000;
+            width: 75%;
+            height: 32px;
+            padding: 5px;
+            font-family: 'Manrope', sans-serif;
+        }
+
+        .main input:focus {
+            outline: none;
+        }
+
+        .main button {
+            border-width: 3px;
+            font-family: 'Manrope', sans-serif;
+            background-color: #000;
+            color: #fff;
+            width: 25%;
+            font-size: .8rem;
+            height: 32px;
+            font-weight: 700;
+        }
+
+        .main button:hover {
+            height: 32px;
+            background-color: #fff;
+            color: #000;
+            font-weight: 700;
+        }
+
+    .list {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        width: 45%;
+    }
+
+        .list p {
+            font-family: 'Manrope', sans-serif;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+
+        .list .item {
+            font-family: 'Manrope', sans-serif;
+            color: #000;
+            background-color: #fff;
+            display: flex;
+            margin-top: 5px;
+        }
+
+            .item .todo {
+                font-family: 'Manrope', sans-serif;
+                border: 3px solid black;
+                width: 75%;
+                text-align: center;
+                font-size: 1.4rem;
+                font-weight: 700;
+            }
+
+            .item .delete {
+                font-family: 'Manrope', sans-serif;
+                width: 25%;
+                border-width: 3px;
+                background-color: #000;
+                color: #fff;
+                font-size: .7rem;
+                height: 39px;
+                font-weight: 700;
+            }
+
+            .item .delete:hover {
+                background-color: #fff;
+                color: #000;
+            }
